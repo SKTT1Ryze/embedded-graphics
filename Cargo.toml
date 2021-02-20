@@ -3,7 +3,7 @@ name = "embedded-graphics"
 description = "Embedded graphics library for small hardware displays"
 version = "0.7.0-alpha.3"
 authors = ["James Waples <james@wapl.es>"]
-repository = "https://github.com/embedded-graphics/embedded-graphics"
+repository = "https://github.com/SKTT1Ryze/embedded-graphics"
 documentation = "https://docs.rs/embedded-graphics"
 categories = ["embedded", "no-std"]
 keywords = ["embedded-graphics", "graphics", "embedded"]
@@ -24,7 +24,7 @@ members = ["core"]
 all-features = true
 
 [badges]
-circle-ci = { repository = "embedded-graphics/embedded-graphics", branch = "master" }
+circle-ci = { repository = "SKTT1Ryze/embedded-graphics", branch = "master" }
 
 [dependencies]
 fixed = { version = "0.5.7", optional = true, default-features = false }
